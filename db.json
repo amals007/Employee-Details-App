@@ -23,6 +23,14 @@
       "email": "sachin@gmail.com",
       "mobile": "23429779",
       "salary": "80000"
+    },
+    {
+      "id": 6,
+      "firstName": "jp",
+      "lastName": "duminy",
+      "email": "duminy@gmail.com",
+      "mobile": "72945729",
+      "salary": "70000"
     }
   ],
   "comments": [],
