@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "david",
+      "lastName": "miller",
+      "email": "david@gmail.com",
+      "mobile": "2472979279",
+      "salary": "70000"
+    },
+    {
+      "id": 3,
+      "firstName": "alex",
+      "lastName": "carey",
+      "email": "alexcarey@gmail.com",
+      "mobile": "529759279",
+      "salary": "70000"
+    },
+    {
+      "id": 5,
+      "firstName": "sachin",
+      "lastName": "tend",
+      "email": "sachin@gmail.com",
+      "mobile": "23429779",
+      "salary": "80000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
