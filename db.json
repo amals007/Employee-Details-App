@@ -31,6 +31,14 @@
       "email": "duminy@gmail.com",
       "mobile": "72945729",
       "salary": "70000"
+    },
+    {
+      "id": 7,
+      "firstName": "Glenn",
+      "lastName": "Maxwell",
+      "email": "glennmaxwell@gmail.com",
+      "mobile": "4729729789",
+      "salary": "90000"
     }
   ],
   "signupUsers": [
@@ -47,6 +55,20 @@
       "password": "virat",
       "mobile": 429479297,
       "id": 2
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 3
+    },
+    {
+      "fullName": "Glenn Maxwell",
+      "email": "glennmaxwell@gmail.com",
+      "password": "glennmaxwell",
+      "mobile": 45729347927,
+      "id": 4
     }
   ],
   "profile": {

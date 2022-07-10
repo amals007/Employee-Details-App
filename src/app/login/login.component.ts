@@ -1,7 +1,7 @@
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup} from '@angular/forms'
+import { FormBuilder, FormGroup, Validators} from '@angular/forms'
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -14,8 +14,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
-      email:[''],
-      password: ['']
+      email:['',[Validators.required,Validators.pattern('[a-zA-Z0-9@.-_]*')]],
+      password: ['', [Validators.required, Validators.pattern('[a-zA-Z0-9]*')]],
     })
 
   }
@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
         this.router.navigate(['dashboard'])
       }
       else{
-        alert('user not foudn')
+        alert('user not found')
       }
     }, err=>{
       alert("Something went wrong!!")
