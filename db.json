@@ -33,7 +33,22 @@
       "salary": "70000"
     }
   ],
-  "comments": [],
+  "signupUsers": [
+    {
+      "fullName": "david",
+      "email": "",
+      "password": "david",
+      "mobile": 42042982,
+      "id": 1
+    },
+    {
+      "fullName": "virat",
+      "email": "virat@yahoo.com",
+      "password": "virat",
+      "mobile": 429479297,
+      "id": 2
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
